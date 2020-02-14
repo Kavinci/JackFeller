@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xenko.Engine" Version="3.1.0.1" />
+
+    <PackageReference Include="Xenko.Video" Version="3.1.0.1" />
+    <PackageReference Include="Xenko.Physics" Version="3.1.0.1" />
+    <PackageReference Include="Xenko.Navigation" Version="3.1.0.1" />
+    <PackageReference Include="Xenko.Particles" Version="3.1.0.1" />
+    <PackageReference Include="Xenko.UI" Version="3.1.0.1" />
+
+    <PackageReference Include="Xenko.Core.Assets.CompilerApp" Version="3.1.0.1" IncludeAssets="build;buildTransitive" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Steamworks.NET">
+      <HintPath>..\..\Steamworks.NET\Standalone\bin\x64\Windows\Steamworks.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

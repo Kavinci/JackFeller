@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JackFeller.Windows", "JackFeller.Windows\JackFeller.Windows.csproj", "{70CDA2F0-C777-422D-9211-EE82216CAF11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JackFeller", "JackFeller\JackFeller.csproj", "{AB6E3729-098F-417C-84AD-984D60447CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JackFeller.Android", "JackFeller.Android\JackFeller.Android.csproj", "{BDAC2306-03C0-4266-863F-14D5B7B6E280}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AppStore|Android = AppStore|Android
+		AppStore|Any CPU = AppStore|Any CPU
+		Debug|Android = Debug|Android
+		Debug|Any CPU = Debug|Any CPU
+		Release|Android = Release|Android
+		Release|Any CPU = Release|Any CPU
+		Testing|Android = Testing|Android
+		Testing|Any CPU = Testing|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.AppStore|Android.ActiveCfg = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.AppStore|Android.Build.0 = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Debug|Android.ActiveCfg = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Debug|Android.Build.0 = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Release|Android.ActiveCfg = Release|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Release|Android.Build.0 = Release|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Testing|Android.ActiveCfg = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Testing|Android.Build.0 = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Testing|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CDA2F0-C777-422D-9211-EE82216CAF11}.Testing|Any CPU.Build.0 = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.AppStore|Android.ActiveCfg = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.AppStore|Android.Build.0 = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Debug|Android.ActiveCfg = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Debug|Android.Build.0 = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Release|Android.ActiveCfg = Release|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Release|Android.Build.0 = Release|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Testing|Android.ActiveCfg = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Testing|Android.Build.0 = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Testing|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6E3729-098F-417C-84AD-984D60447CBA}.Testing|Any CPU.Build.0 = Debug|Any CPU
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.AppStore|Android.ActiveCfg = AppStore|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.AppStore|Android.Build.0 = AppStore|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.AppStore|Android.Deploy.0 = AppStore|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.AppStore|Any CPU.ActiveCfg = AppStore|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Debug|Android.ActiveCfg = Debug|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Debug|Android.Build.0 = Debug|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Debug|Android.Deploy.0 = Debug|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Debug|Any CPU.ActiveCfg = Debug|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Release|Android.ActiveCfg = Release|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Release|Android.Build.0 = Release|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Release|Android.Deploy.0 = Release|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Release|Any CPU.ActiveCfg = Release|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Testing|Android.ActiveCfg = Testing|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Testing|Android.Build.0 = Testing|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Testing|Android.Deploy.0 = Testing|Android
+		{BDAC2306-03C0-4266-863F-14D5B7B6E280}.Testing|Any CPU.ActiveCfg = Testing|Android
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98F8DE42-A0F3-4A5D-9FA0-95BE876A3B21}
+	EndGlobalSection
+EndGlobal

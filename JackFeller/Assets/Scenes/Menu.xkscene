@@ -1,0 +1,26 @@
+!SceneAsset
+Id: c1d31af5-e93e-48ca-a5b0-897154af7f0a
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! e6ed2da4-1e4f-47ea-8a88-7c3c036b6fb1
+    Parts:
+        -   Entity:
+                Id: e6ed2da4-1e4f-47ea-8a88-7c3c036b6fb1
+                Name: Camera
+                Components:
+                    44b4575c6fa557cd97c0edad641a0232: !TransformComponent
+                        Id: e8cd4e68-a040-43da-b0c5-c368eeb34913
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dd9b7c9887029957670861ded03dad3e: !CameraComponent
+                        Id: 3179de8e-42dd-4d4c-bc78-0b92631d568e
+                        Name: null
+                        Projection: Orthographic
+                        OrthographicSize: 1.0
+                        Slot: 45b8c081-1d2f-4755-863e-e944b1be15c4

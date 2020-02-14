@@ -1,0 +1,22 @@
+!UIPageAsset
+Id: 4dba3f10-22ff-4513-9308-97c2e9f258bf
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 849754f2-5ed6-4871-9ea0-a41d4deb3112
+    Parts:
+        -   UIElement: !Grid
+                Id: 849754f2-5ed6-4871-9ea0-a41d4deb3112
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children: {}
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}

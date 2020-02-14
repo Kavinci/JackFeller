@@ -1,0 +1,18 @@
+!PrefabAsset
+Id: d269ae95-cc7d-4fbd-bae3-451d45e0efb9
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! f6c60649-eb38-4e0e-a6de-5221dc8d3c60
+    Parts:
+        -   Entity:
+                Id: f6c60649-eb38-4e0e-a6de-5221dc8d3c60
+                Name: Player
+                Components:
+                    473c54670bf016d0c306113f400f77e9: !TransformComponent
+                        Id: e3b09a0d-cbf9-4e57-affb-7db9915deb6f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
