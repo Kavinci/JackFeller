@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 2ba4a92d-bff1-4cf1-b183-5761b705f875
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    a06b8014eede6900dd7f4edb183316ec:
+        Source: !file R_Leg.png
+        Name: R_Leg
+        TextureRegion: {X: 0, Y: 0, Width: 31, Height: 79}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

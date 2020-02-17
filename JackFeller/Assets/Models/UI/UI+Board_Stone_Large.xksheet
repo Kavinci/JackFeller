@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 8c4152f4-0ce0-4c4a-a83b-2048268e32b8
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    3af06ce59d6169896234e2db83fd877f:
+        Source: !file E:/Video Game Development/normal_ui_set free/UI board Large  stone.png
+        Name: UI board Large  stone
+        TextureRegion: {X: 0, Y: 0, Width: 923, Height: 619}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

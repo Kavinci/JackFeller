@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 5ae5c008-ef3b-4c85-b87b-001c45b0b191
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    a9fe45eb53a5170e8757a1d628852f92:
+        Source: !file Bottom_wear.png
+        Name: Bottom_wear
+        TextureRegion: {X: 0, Y: 0, Width: 102, Height: 77}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

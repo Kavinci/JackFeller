@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 8cb52796-6522-42cb-a420-f7ea92f0609d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    619e2f0c5e7c5cb822bb0a434fc4b699:
+        Source: !file E:/Video Game Development/Health_bar_Free_Game_Assets/bar.png
+        Name: bar
+        TextureRegion: {X: 0, Y: 0, Width: 338, Height: 74}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

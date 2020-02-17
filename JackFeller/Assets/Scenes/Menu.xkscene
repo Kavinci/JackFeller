@@ -7,20 +7,671 @@ Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootParts:
         - ref!! e6ed2da4-1e4f-47ea-8a88-7c3c036b6fb1
+        - ref!! 6cc25ba2-5101-4f5f-97fc-4252e84e05b4
     Parts:
+        -   Entity:
+                Id: 01e353fa-8295-47d9-9e1e-8a2e31f43bf2
+                Name: Foot_Right
+                Components:
+                    2ca370ffdfa5ce29f3069d87d387a49b: !TransformComponent
+                        Id: 0e9b1e62-b517-4e8c-9b1d-21f1c485cc1e
+                        Position: {X: -0.4166384, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8811653c13effd6ef7a28cbf46b40368: !SpriteComponent
+                        Id: 189f8c45-77d4-4f27-8a81-8ea333dc99ac
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 407e7271-fbc7-40b4-a3b8-d3e70b59d889:Models/Character/Foot_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 630e7664-bc66-40f4-aad3-fbb94719efcf
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 0392f807-eef6-4e00-8269-98e49d365143
+                Name: Mouth_Hurt
+                Components:
+                    22f8d8d193df31631ead994f2187ac9c: !TransformComponent
+                        Id: a1a3cb17-7616-4efa-8a73-b3c4b020e2fc
+                        Position: {X: 2.44791675, Y: 2.43055558, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    47c1bdaf335c3419c671b720f6a6f442: !SpriteComponent
+                        Id: 19e04846-9810-4120-b105-f0bd9a96cb73
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: a3ba6fa4-b59e-4f6d-ac00-06e43cd631a3:Models/Character/Mouth_Hurt
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: fc966762-b58b-41d1-976e-b81a63c94c3d
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 03ea0e00-f087-410e-9d55-2e41be351a89
+                Name: Shoulder_Right
+                Components:
+                    ec65791d1fd5a4511fed8d0e8af99175: !TransformComponent
+                        Id: 18726a7d-e225-42dd-8970-bded4b1ef89d
+                        Position: {X: -0.590277135, Y: 1.63194454, Z: -1.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.495204419, W: 0.8687765}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    bb8fa33517e4a55824ee33a0946b0bc5: !SpriteComponent
+                        Id: 68d8fc26-d798-4400-a201-04209d745b23
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c681f47f-1125-4750-ba21-cdd065b771c7:Models/Character/Shoulder_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 74f22758-1e80-4a52-912f-319c16ea6779
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 0a156362-3e44-49f2-b5b5-2ec554d42531
+                Name: Chest
+                Components:
+                    0364adeea19854d1633579310c2229e9: !TransformComponent
+                        Id: 55724c19-ac29-4efa-824d-f54c3b30822c
+                        Position: {X: 0.0, Y: 1.49305582, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    249ccd3a8dd26b1dc4b932eda85e0c83: !SpriteComponent
+                        Id: e2162fae-e69c-42f5-9bbd-9ceb97082387
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 4bf4e6d8-b72e-40b4-bdaa-9a985ba05205:Models/Character/Chest
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 0b7d66f9-ca04-452c-8607-054276ace239
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 0ac30cc3-2009-4b31-9651-605b5b91298d
+                Name: Hip
+                Components:
+                    19cfc49a4dec09d486c9bcf76153c2e9: !TransformComponent
+                        Id: 95a4e230-c05f-40cd-8444-59bb4800c03a
+                        Position: {X: 0.0, Y: 1.09375024, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f8e8a26a150428ae98f30bd14d12fdda: !SpriteComponent
+                        Id: 76203429-ea77-42f0-ac9a-20018a61ae1c
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 43cf6ae7-47ee-436f-9a4b-81ad3e205a6f:Models/Character/Hip
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 704728ae-506b-4d69-9ab2-066be7878f60
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 1128d515-e8a4-443d-af7a-edc22ac4e808
+                Name: Ear
+                Components:
+                    e45549c66c0f9051d0c49e036bfb49fd: !TransformComponent
+                        Id: aec16674-0d61-4bda-9e4e-6ebb9b1cc1a3
+                        Position: {X: 0.434027344, Y: 2.41319442, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c79f69aa94e964ee0586350e3220f1d1: !SpriteComponent
+                        Id: 80f45600-c677-4c59-b417-49b8b31c0d5a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: bac3e141-6045-458f-9f75-0c224dc589e1:Models/Character/Ear
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: ef605995-8d30-4b1c-9115-457f0e812ea0
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 22dfea9c-fe54-4d38-8951-3addf53a6770
+                Name: Shadow
+                Components:
+                    0eb0385d255c7803e94f83b5f3b75df4: !TransformComponent
+                        Id: 55104f55-b63b-4c06-b19a-7c003fa616b6
+                        Position: {X: 0.0, Y: -1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b45535c052268f5de8a510bdcffb40d6: !SpriteComponent
+                        Id: 4984f414-2b86-4fc0-a41a-b61a6017317a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 1be9b045-5967-41fb-a179-b43bf742094e:Models/Character/Shadow
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 26f8758b-9a0e-4b14-bb95-1092aa2a6b5c
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 25154ff8-5127-42af-814e-15c79d536667
+                Name: Flush
+                Components:
+                    43705c660d172d85ae00232c4783348d: !TransformComponent
+                        Id: 98e4cefe-2675-4f91-b4a3-1f2ed285a6f8
+                        Position: {X: -0.173611, Y: 2.239583, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dde5255b5fc0e589f3d388b456d4a28e: !SpriteComponent
+                        Id: c0aa63e1-3edc-4247-a660-9671cff2690c
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 32ef2278-3c0e-4529-98ec-e63b4b9a12ae:Models/Character/Flush
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 11a2b6e9-d4eb-40a7-a514-23ebf8c82d93
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 2e40d90d-2c66-4a27-9692-77d220b0d9c4
+                Name: Eyebrow_Right
+                Components:
+                    7f6a6c6259874f6e2a480709f26c452a: !TransformComponent
+                        Id: bf066a0f-3b68-4d39-9636-eb190f7c47fb
+                        Position: {X: -0.416666985, Y: 2.638889, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7622bdf6e24116f02a943a1946b0f1de: !SpriteComponent
+                        Id: 97e4f2f6-3fd4-42c3-b2cb-eeab6dc5096a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d1d6e6b5-0920-4f83-a80d-fa45e535740a:Models/Character/Eyebrow_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 109aeaf6-dad2-4e27-9769-83e605c2b2c4
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 386ea2c4-c289-4c20-9e06-663826d1fe7b
+                Name: Nose
+                Components:
+                    04a15d8263b59ee6944a8492f3020ef9: !TransformComponent
+                        Id: f2fecb4e-2d5a-4079-bbee-81166eb49ba7
+                        Position: {X: -0.243056133, Y: 2.41319442, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6971d003a434a190eca9179a3fc047e1: !SpriteComponent
+                        Id: 9f941de7-889e-46a6-a302-81f04a0f2811
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 458c1670-48a2-4768-9c89-7345e8cd283d:Models/Character/Nose
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: fc25e09f-3d5d-49d6-8ddb-d63a7892a033
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 3d6ca647-d4a3-43d2-b72a-3448af1eca15
+                Name: Thigh_Left
+                Components:
+                    ca462295b794b124284a30a52a2e8012: !TransformComponent
+                        Id: d7ab5966-a230-4f0c-acb6-49ad65c78609
+                        Position: {X: 0.243055955, Y: 0.7118061, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2ebbc4a5da1d58679f1df861a8daa6be: !SpriteComponent
+                        Id: cea149aa-5997-47b7-945c-57fb5cde0490
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: abb90977-fb09-4f03-9c9b-afe45bfb2250:Models/Character/Thigh_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 56568786-4f71-40e1-89a1-d152827e2258
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 49007753-4d4c-429a-979b-0b94304bfcc7
+                Name: Thigh_Right
+                Components:
+                    279e53d0c49fc228f9e8ff550accee8c: !TransformComponent
+                        Id: 5ca6ef87-52a7-4b44-a9a2-c81936b3c903
+                        Position: {X: -0.31249997, Y: 0.763889, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    caefadba87a73ba6d5e02e1a3d0066fc: !SpriteComponent
+                        Id: 3ba4e72c-52f9-4383-9320-c3c741ad306d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 99e41a99-d8d5-428d-94fb-10769ee2fb9f:Models/Character/Thigh_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: ec598ebf-254a-40aa-9c0e-021c792c0152
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 51fd31a8-ef72-4f84-992a-3a680088c669
+                Name: Arm_Left
+                Components:
+                    d8f64ac66ed51d88d89829c5d8f1c8dc: !TransformComponent
+                        Id: fed31349-d1ee-4ebd-8b86-d7b7755510e0
+                        Position: {X: 0.5902778, Y: 1.31944489, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e1976fe9a2c66303f2a561329c100d1b: !SpriteComponent
+                        Id: 68a00bfc-8400-4c8b-be29-ece21853830c
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: ad37e940-30c0-4423-82bc-993ad76b05ca:Models/Character/Arm_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 18067fba-3904-4271-8bf6-d0fa82f6f1d5
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 6a238f36-d8c2-47db-a068-373925cc87b1
+                Name: Eyebrow_Left
+                Components:
+                    56eee936de7f0979dbc99a96739b048d: !TransformComponent
+                        Id: 09872c1e-1a1e-4db6-87bb-ec9224f556ab
+                        Position: {X: 0.0, Y: 2.65625024, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f7115948b53f8973574eb64f84394876: !SpriteComponent
+                        Id: 4a056bd0-de63-4f3f-90c0-139d768326cb
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: dd788314-714d-4d67-ba80-920a542793db:Models/Character/Eyebrow_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: e2a6192f-91f7-4605-827c-099214430c4b
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 6bf9ba29-627f-4cd1-abd0-73fe63169bf7
+                Name: Leg_Right
+                Components:
+                    859a8da0e3d7b3bc2be26ed2b7898f11: !TransformComponent
+                        Id: 46c36f69-14c1-4e4c-a03e-a6b8ad43edbb
+                        Position: {X: -0.260416418, Y: 0.295138836, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3d0700bc162cbb7fd6b0943f5de179c4: !SpriteComponent
+                        Id: 4f0861f6-5780-442b-9588-8500f6f8da39
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2ba4a92d-bff1-4cf1-b183-5761b705f875:Models/Character/Leg_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: e013d2c7-9b46-42a0-993b-69d67362da9b
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 6cc25ba2-5101-4f5f-97fc-4252e84e05b4
+                Name: MalePlayer
+                Components:
+                    22a50b334d61c60b12c684b1b4ebcafe: !TransformComponent
+                        Id: 41a224e7-6b7d-419d-8332-b586deb46a75
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            bd4b6ab3ec0eaea6c2715a754dc95495: ref!! fed31349-d1ee-4ebd-8b86-d7b7755510e0
+                            77c10fbb96aff1b0af16c37d013d751a: ref!! b697064a-9cbe-4969-a43a-eaa373c79504
+                            1dc747e755962032fb3ce10c91369ee4: ref!! d2bce0d8-9842-49cc-9cb7-988dc07af187
+                            4aafdf19e0a382fe76a996da04bde7ee: ref!! 55724c19-ac29-4efa-824d-f54c3b30822c
+                            e1b33e596da99535f2066b115702821d: ref!! aec16674-0d61-4bda-9e4e-6ebb9b1cc1a3
+                            c7ea69bdc9e7292c7fc051aa244375b1: ref!! 09872c1e-1a1e-4db6-87bb-ec9224f556ab
+                            2d4917d45d2d2a2d8a5f404d7873afca: ref!! bf066a0f-3b68-4d39-9636-eb190f7c47fb
+                            b67e7727f3292ea0ea544a55ee1f30a1: ref!! 2c0e50e5-8728-4460-a9ff-2a6edf591d67
+                            a346ad2f4a1e9392bd7e6be4f6714042: ref!! 2fbe7431-0a70-4bcc-afa3-502d7eec0000
+                            75d54ff6ec5f0e2c6ca8aa11a4066378: ref!! e731821e-26d4-4fbc-aba4-e5bc9cf9fd5e
+                            30935b13fde75926c259627f7852420a: ref!! 43190091-39a5-4837-8340-2b3c4d6ddf28
+                            b9b1cb0362a150bbac6e06222d470534: ref!! 5dbae140-5502-4520-aee6-a1343b83f26b
+                            b904e56f0f351f303230805fb58f16dc: ref!! 5aeb0f8e-7bfe-432a-9393-49177b6d34ad
+                            baecab821a2296e8043d666de6eb24d0: ref!! 98e4cefe-2675-4f91-b4a3-1f2ed285a6f8
+                            e0b511553c98a4ab1a1eae81ec5c68c0: ref!! e85fd528-cea4-4232-8d52-a5af3a3c7f0e
+                            394c8e550d26ebaca82feeb8dd74cce6: ref!! 0e9b1e62-b517-4e8c-9b1d-21f1c485cc1e
+                            c053b7e33eec6dfbff64bc0b0c60b7b6: ref!! b8f55361-c918-466a-b6c5-c46025a27d8b
+                            7d646668aabe07def373b622bd4cd7f4: ref!! 1a38cf72-8217-42c5-9315-adb1f24aaff2
+                            3727273b11764284a6c7d1b68c74d4f7: ref!! 99af27f9-542d-4b90-b88a-4fa36dff5fd9
+                            5d6ad7f81f0d4f08bde52e927caa02c5: ref!! 95a4e230-c05f-40cd-8444-59bb4800c03a
+                            a47b972b4888bc537a0e6ee9d17115bf: ref!! 93363e5e-4b33-4250-96c4-b167efab9294
+                            226ec966e2b50f9d468a917611bbe54e: ref!! 46c36f69-14c1-4e4c-a03e-a6b8ad43edbb
+                            aeb93b32f26b85dfc4c804c4b7bfa503: ref!! 844307b3-e11c-4fa0-9b06-e15cbd2f4302
+                            cd2ee0e2d851aad8845b7c7f35f624c3: ref!! a1a3cb17-7616-4efa-8a73-b3c4b020e2fc
+                            5182dba1d03b37f49cab3a5007c512fc: ref!! dd3ece52-5e9b-41e8-bc72-c19e703dd1a8
+                            7045ef6e8122a36a1021c9721b665307: ref!! f2fecb4e-2d5a-4079-bbee-81166eb49ba7
+                            915d24bd7522cf9c2aa92c0fe6043ea8: ref!! 55104f55-b63b-4c06-b19a-7c003fa616b6
+                            0d0df6eac4e3b6cc178037de29465675: ref!! 4bfd54ef-1134-445e-b63b-4c043e92d2a4
+                            10e84e586e509ad55d766068db6bc256: ref!! 18726a7d-e225-42dd-8970-bded4b1ef89d
+                            7ea997eb79a663b937f50a2000d02ee9: ref!! d7ab5966-a230-4f0c-acb6-49ad65c78609
+                            cb724f10ab69aa4c7f0d4f53a7bdcfab: ref!! 5ca6ef87-52a7-4b44-a9a2-c81936b3c903
+                            e2bfea8fff10ad1fc5765f0df8bb376a: ref!! bb1b0db1-7f5e-4109-8131-cb8af7a92f2e
+        -   Entity:
+                Id: 7135ba37-1457-4310-a77e-071db0a2259c
+                Name: Finger_Left
+                Components:
+                    a2acff7109773eb8b1ca8ac78b19828b: !TransformComponent
+                        Id: 5dbae140-5502-4520-aee6-a1343b83f26b
+                        Position: {X: 1.11111057, Y: 0.885416567, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    078ca3fb11a8e6e1dbc45ede9165f0be: !SpriteComponent
+                        Id: d4039093-e226-4a4f-aedf-2ce92c988fad
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: a7e30a96-57e6-4337-a3c3-032f0a171111:Models/Character/Finger_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 3a389eea-c8d1-4ca2-82a9-9d3547fdf172
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 7158e12a-dcdf-414c-9e07-236542b1e23e
+                Name: Mouth_Closed
+                Components:
+                    95d53bcd76c89a5f315ef1872ab5ee36: !TransformComponent
+                        Id: 844307b3-e11c-4fa0-9b06-e15cbd2f4302
+                        Position: {X: 2.55208373, Y: 2.06597257, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a013fd22b9fdfa72beb9224c80cdcd74: !SpriteComponent
+                        Id: b016fa68-40f2-41de-9414-94835e2f079d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: b03696c4-7e42-43ee-83ac-2ed626619926:Models/Character/Mouth_Closed
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 775e26d3-0ee5-41ff-ae81-2862a5e93f15
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: 755c1ef8-85a6-4daa-8c2c-e7c5c1426ca4
+                Name: Eyes_Open
+                Components:
+                    243ba3e38be0bdec396c7402abb3baa3: !TransformComponent
+                        Id: e731821e-26d4-4fbc-aba4-e5bc9cf9fd5e
+                        Position: {X: -0.190972582, Y: 2.465278, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9f9728bc56338badd3ad3dc45d09f98e: !SpriteComponent
+                        Id: 78e8ac65-6746-41bf-a103-684762869372
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 00db2e79-5f52-4b31-8c7e-c194a160f409:Models/Character/Eyes_Open
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: f5f445ab-3d31-4d8c-b8b2-6cbcc6d7cbe8
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: a19dcfd7-963c-4c78-9f7a-197006658e80
+                Name: Bottom_Wear
+                Components:
+                    8af609f302b68b8d6e0ceec919a2bb30: !TransformComponent
+                        Id: d2bce0d8-9842-49cc-9cb7-988dc07af187
+                        Position: {X: 0.0, Y: 1.04166651, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7da43d5700fb178aaa6177ca8351d2b0: !SpriteComponent
+                        Id: 864d5fa0-4b52-4538-b299-acba82e70281
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5ae5c008-ef3b-4c85-b87b-001c45b0b191:Models/Character/Bottom_Wear
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 9545ce90-e9ed-49cd-9a02-f58e2761b2f6
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: a96a135e-c347-4256-981c-fbc3f2790d00
+                Name: Eyes_Hurt
+                Components:
+                    52e7f692bc0fbd3a8bd79ac4dc25dbc6: !TransformComponent
+                        Id: 2fbe7431-0a70-4bcc-afa3-502d7eec0000
+                        Position: {X: 3.35069442, Y: 2.46041584, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c4cef239b31818d66179f09ab5144d73: !SpriteComponent
+                        Id: 103c2f33-c345-457f-a887-5bb89d1ec817
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: af7943ac-bd78-480a-87a1-c03cf2acb84c:Models/Character/Eyes_Hurt
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: d56b12b9-36f5-4e3e-8c33-da338f76838d
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: ade25fec-2a6a-4d8e-b0b6-79e597229838
+                Name: Mouth_Open
+                Components:
+                    52ebddd9ad7bbc783db3bb4172eea462: !TransformComponent
+                        Id: dd3ece52-5e9b-41e8-bc72-c19e703dd1a8
+                        Position: {X: -0.225694537, Y: 2.152778, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c5c1f4efaedf68372a5ec837b337e819: !SpriteComponent
+                        Id: e5d876d5-1509-4e60-a6c7-85fe4a39a848
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: f9d98698-5de9-4812-9213-06cffeb4cd1f:Models/Character/Mouth_Open
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: d4bd2a64-ed66-4720-9226-94a3539f1147
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: b0c34903-ba6c-48c7-9dda-98c7e576422a
+                Name: Hair
+                Components:
+                    0bd7a6fece4437ced79b60522d8124ff: !TransformComponent
+                        Id: b8f55361-c918-466a-b6c5-c46025a27d8b
+                        Position: {X: 0.138889045, Y: 3.055556, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a4875c6627d4a3e7a06bda2e50ae66f3: !SpriteComponent
+                        Id: e038b29d-92f5-49d7-856d-5b2a12a1ea3b
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: ed9aca1b-ce00-45d3-ba48-ac0f2ec98b82:Models/Character/Hair
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 79e562ad-4a75-42ec-94e4-a1e00636c49f
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: b831127f-d301-4f77-8b5c-5ad576f11783
+                Name: Finger_Right
+                Components:
+                    2d329bb2890bcd642e5832f45a433cad: !TransformComponent
+                        Id: 5aeb0f8e-7bfe-432a-9393-49177b6d34ad
+                        Position: {X: -1.04166555, Y: 1.42361116, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    67dcfe29f83dceb80c08ee1a3abd4388: !SpriteComponent
+                        Id: 3f5816ea-718f-482d-9488-3f1fedf41386
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: e42f162b-840a-4b15-8b2c-c7dde624b312:Models/Character/Finger_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: bba406d8-c67c-427f-8c9c-3badac66a225
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: ced71cc3-ebaf-4b56-afe6-9374f05af9cf
+                Name: Eyes_Close
+                Components:
+                    cd2494adb7fd21fd278488ab9bc47b8d: !TransformComponent
+                        Id: 2c0e50e5-8728-4460-a9ff-2a6edf591d67
+                        Position: {X: 2.70833325, Y: 3.05555534, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    39a91da56b6abb8f82e15178f401dda6: !SpriteComponent
+                        Id: 59e746b6-b285-4701-8b3b-205d725c980e
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: b6b59720-35e1-449b-91f5-fdf86969a54c:Models/Character/Eyes_Close
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 7e984bfc-1b87-44eb-979a-d577dd969d54
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: e033d33c-e1d8-4f6a-a57b-f15cd7d0917a
+                Name: Arm_Right
+                Components:
+                    5b01a0be821cfeea6cd7edbfa70eeef0: !TransformComponent
+                        Id: b697064a-9cbe-4969-a43a-eaa373c79504
+                        Position: {X: -0.815973, Y: 1.33680534, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    de995130bb218b9376ee2b7d4122c563: !SpriteComponent
+                        Id: 5055898d-5a92-4abc-95b7-e0c09107541f
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5e1039ef-0e26-4da7-8c99-aec3c543ef11:Models/Character/Arm_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 1ea3b9ef-9661-4701-a520-d41c54c572e5
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: e4405a81-a1a7-4b32-a6b2-72182c2f7a5a
+                Name: Leg_Left
+                Components:
+                    db086ac99a00c70180ec6ca75fe45966: !TransformComponent
+                        Id: 93363e5e-4b33-4250-96c4-b167efab9294
+                        Position: {X: 0.2777779, Y: 0.329861075, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    57c60b8434031f701bb78f5d6e9a6e19: !SpriteComponent
+                        Id: 22c54cc4-5a8f-4284-b6db-b4660bfdfa87
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: f3e3d198-4c4a-4ba9-adb4-5c3305cd37f9:Models/Character/Leg_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: abb52397-34a6-451f-8a5a-162170be7817
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: e5cdadcf-a741-4ecc-93c7-1d19daba09f2
+                Name: Hand_Left
+                Components:
+                    e814f604bf190f78f2872a6b73188752: !TransformComponent
+                        Id: 1a38cf72-8217-42c5-9315-adb1f24aaff2
+                        Position: {X: 0.9865167, Y: 0.781250238, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0acb8b05c44d32ced1fc846553795bcb: !SpriteComponent
+                        Id: 9c244c0a-6c62-4844-9b17-e8b34acb7d8d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 597fe729-d8d0-4c7d-82df-3d3d89bd13aa:Models/Character/Hand_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: aebcf8d0-d8f8-4cf5-aca0-38c214e5b59b
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
         -   Entity:
                 Id: e6ed2da4-1e4f-47ea-8a88-7c3c036b6fb1
                 Name: Camera
                 Components:
                     44b4575c6fa557cd97c0edad641a0232: !TransformComponent
                         Id: e8cd4e68-a040-43da-b0c5-c368eeb34913
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Position: {X: 0.0, Y: 1.53117836, Z: 25.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     dd9b7c9887029957670861ded03dad3e: !CameraComponent
                         Id: 3179de8e-42dd-4d4c-bc78-0b92631d568e
                         Name: null
-                        Projection: Orthographic
+                        Projection: Perspective
                         OrthographicSize: 1.0
                         Slot: 45b8c081-1d2f-4755-863e-e944b1be15c4
+        -   Entity:
+                Id: e9c8debf-8b0d-405b-ad10-67a4926cc0d5
+                Name: Weapon_Right
+                Components:
+                    1d7507f3260e36d30e95a70eb0c2c672: !TransformComponent
+                        Id: bb1b0db1-7f5e-4109-8131-cb8af7a92f2e
+                        Position: {X: -1.03613257, Y: 2.34375048, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e4affdf26e1286f55de7e8ad77970c2b: !SpriteComponent
+                        Id: 930d4cf7-cb93-4b11-93b8-843b43fba4cb
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: fe909bea-7662-4090-9dde-5b3f20fda0b0:Models/Character/Weapon_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: fd434650-c373-4b85-84e9-5158227cd128
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: e9e655b6-d2e7-4940-b606-993f5eb3fffb
+                Name: Hand_Right
+                Components:
+                    45707f7d438dc63c3b6cd36a5f97a915: !TransformComponent
+                        Id: 99af27f9-542d-4b90-b88a-4fa36dff5fd9
+                        Position: {X: -1.006945, Y: 1.3888886, Z: -0.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1b46756255723771de2762d2e355c4b5: !SpriteComponent
+                        Id: dcba4029-0728-4bff-b0e5-fc405534afab
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: f8d7d832-4d2f-4aaf-8f97-89948ed070ac:Models/Character/Hand_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: d53a0810-e4e9-4cc1-8477-83a7fd7c0c59
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: ec757e8b-fd10-4e91-895d-f6244e95a019
+                Name: Foot_Left
+                Components:
+                    ec6a30280e0b350c6022ae48ea354a44: !TransformComponent
+                        Id: e85fd528-cea4-4232-8d52-a5af3a3c7f0e
+                        Position: {X: 0.156250983, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5880bbfdd3e834a151ce6b49b6dd0c85: !SpriteComponent
+                        Id: 66904896-f19b-444e-98a1-823555178951
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: db93af70-1d61-43ad-93fa-856eeb25b9a5:Models/Character/Foot_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 6a935b3e-2fcb-4084-9c6a-a421f4a963c9
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: ed059c5f-4240-4a60-8d05-43c9e2a02df6
+                Name: Face
+                Components:
+                    ebe19e593239fed8ea5ca72a8393267e: !TransformComponent
+                        Id: 43190091-39a5-4837-8340-2b3c4d6ddf28
+                        Position: {X: 0.0, Y: 2.534722, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ab3ea232713a23c3d2a60237bcb6e389: !SpriteComponent
+                        Id: 39658f63-418e-4141-8145-c99d36058b3a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5a541fd5-f0ac-42e4-9433-4dec182239aa:Models/Character/Face
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 918baf06-6ea0-4658-9e6d-f0d53f3e6272
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572
+        -   Entity:
+                Id: f36a1bdc-d417-49b8-a421-d0d4c1861ccd
+                Name: Shoulder_Left
+                Components:
+                    d24ed03503cdf2e88d451eea6858871e: !TransformComponent
+                        Id: 4bfd54ef-1134-445e-b63b-4c043e92d2a4
+                        Position: {X: 0.5381944, Y: 1.71874964, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    18cd9f26c29d7bea43ed5bb37a6782ea: !SpriteComponent
+                        Id: 8f3513f9-dfc0-442c-a77f-322d5e411816
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d5fb81df-1be3-424a-aa88-7ea8ea85df53:Models/Character/Shoulder_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Base:
+                BasePartAsset: ba394131-904b-4840-a2fa-6ec42960bf13:Prefabs/MalePlayer
+                BasePartId: 516c01db-fc46-411e-8f9e-88d7cc94e4a1
+                InstanceId: 5ec5cef4-041d-432d-b9b2-3b959d2cd572

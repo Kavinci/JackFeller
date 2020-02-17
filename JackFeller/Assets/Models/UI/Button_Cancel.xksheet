@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: ae5b2077-e66e-4a0b-bce9-66cc84d78971
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    dd875a5072087f6f1144d1acff2d987b:
+        Source: !file E:/Video Game Development/normal_ui_set free/TextBTN_Cancel.png
+        Name: TextBTN_Cancel
+        TextureRegion: {X: 0, Y: 0, Width: 233, Height: 114}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 34915b96-d224-4421-8ac0-31418cb62bc2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    dbd7c28c82fc05c72993b2dc46e5264c:
+        Source: !file E:/Video Game Development/normal_ui_set free/Exclamation_Red.png
+        Name: Exclamation_Red
+        TextureRegion: {X: 0, Y: 0, Width: 97, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

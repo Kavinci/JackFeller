@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: bac3e141-6045-458f-9f75-0c224dc589e1
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    209bc9969c3dd4c8386772ea2476621b:
+        Source: !file Ear.png
+        Name: Ear
+        TextureRegion: {X: 0, Y: 0, Width: 31, Height: 45}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

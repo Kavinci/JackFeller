@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: db93af70-1d61-43ad-93fa-856eeb25b9a5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    c4f3e788f9c85df9853ab8cbe7061b13:
+        Source: !file L_Foot.png
+        Name: L_Foot
+        TextureRegion: {X: 0, Y: 0, Width: 45, Height: 27}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

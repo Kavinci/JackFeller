@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: d512b56b-a788-41ad-ba27-ffeb3da17562
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    cdc76e9f49a15da4972ab947416b2e3e:
+        Source: !file L_Arm_wear.png
+        Name: L_Arm_wear
+        TextureRegion: {X: 0, Y: 0, Width: 66, Height: 73}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

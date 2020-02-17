@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: fe909bea-7662-4090-9dde-5b3f20fda0b0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    1bd401918bafd6ac4eb0a1b40858513a:
+        Source: !file R_Weapon.png
+        Name: R_Weapon
+        TextureRegion: {X: 0, Y: 0, Width: 79, Height: 280}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

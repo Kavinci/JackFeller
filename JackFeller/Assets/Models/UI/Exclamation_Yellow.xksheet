@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: fcc756d0-88c2-4f62-ba57-0951c1ead84d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    b2b5268b6750fc47fe213141f0e60348:
+        Source: !file E:/Video Game Development/normal_ui_set free/Exclamation_Yellow.png
+        Name: Exclamation_Yellow
+        TextureRegion: {X: 0, Y: 0, Width: 97, Height: 98}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

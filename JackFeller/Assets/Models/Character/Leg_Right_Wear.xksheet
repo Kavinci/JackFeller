@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: e46516ba-18e9-4cba-810c-a4dc52961bee
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    7fe1e5cb3207dd50eff026b0d5aeaa60:
+        Source: !file R_Leg_wear.png
+        Name: R_Leg_wear
+        TextureRegion: {X: 0, Y: 0, Width: 39, Height: 65}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

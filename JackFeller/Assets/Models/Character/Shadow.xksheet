@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 1be9b045-5967-41fb-a179-b43bf742094e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    edb3f3244a279b0d7fc8426018f0733e:
+        Source: !file shadow.png
+        Name: shadow
+        TextureRegion: {X: 0, Y: 0, Width: 137, Height: 40}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

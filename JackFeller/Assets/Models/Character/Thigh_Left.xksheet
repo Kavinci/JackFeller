@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: abb90977-fb09-4f03-9c9b-afe45bfb2250
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    2d78c663eac9e2d5b74489391b2b67c2:
+        Source: !file L_Thigh.png
+        Name: L_Thigh
+        TextureRegion: {X: 0, Y: 0, Width: 39, Height: 61}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

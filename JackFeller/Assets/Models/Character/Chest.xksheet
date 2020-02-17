@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 4bf4e6d8-b72e-40b4-bdaa-9a985ba05205
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    7b12e16cf882ffe40a38d0cde93a9b74:
+        Source: !file Chest.png
+        Name: Chest
+        TextureRegion: {X: 0, Y: 0, Width: 106, Height: 132}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

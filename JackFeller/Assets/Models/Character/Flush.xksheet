@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 32ef2278-3c0e-4529-98ec-e63b4b9a12ae
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    1428b0eb580b8247817aee9db0bd18b4:
+        Source: !file flush.png
+        Name: flush
+        TextureRegion: {X: 0, Y: 0, Width: 69, Height: 12}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

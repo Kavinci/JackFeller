@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: b6b59720-35e1-449b-91f5-fdf86969a54c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    8eea34d05dff0204bb06349f15da1fe8:
+        Source: !file eyes_close.png
+        Name: eyes_close
+        TextureRegion: {X: 0, Y: 0, Width: 59, Height: 17}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

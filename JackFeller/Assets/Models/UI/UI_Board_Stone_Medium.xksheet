@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 6e49a01e-0b67-42af-87d6-fa195590423a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e968b06428d1bb21ff6eb572a93422ab:
+        Source: !file E:/Video Game Development/normal_ui_set free/UI board Medium  stone.png
+        Name: UI board Medium  stone
+        TextureRegion: {X: 0, Y: 0, Width: 723, Height: 511}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: dabf5fef-a089-4f17-880b-feb014a1c630
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    b0715bdb19ba660c76713f95fb3fbfc6:
+        Source: !file E:/Video Game Development/normal_ui_set free/UI board Small  stone.png
+        Name: UI board Small  stone
+        TextureRegion: {X: 0, Y: 0, Width: 723, Height: 291}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

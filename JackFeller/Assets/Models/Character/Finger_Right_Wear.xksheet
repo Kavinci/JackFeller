@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 9fe7f3df-4cf3-42f3-b2da-b0d35866dd15
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    00fc4b03bad8906eb4081fe6d0365250:
+        Source: !file R_Finger_wear.png
+        Name: R_Finger_wear
+        TextureRegion: {X: 0, Y: 0, Width: 39, Height: 50}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 40b259e9-d5c3-4261-be92-b37481e5a20d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e05068a266dc16d04a6a6bef7979800f:
+        Source: !file E:/Video Game Development/character/BURLY-MAN 1.png
+        Name: BURLY-MAN 1
+        TextureRegion: {X: 0, Y: 0, Width: 399, Height: 600}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

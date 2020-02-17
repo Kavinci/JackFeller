@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 597fe729-d8d0-4c7d-82df-3d3d89bd13aa
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    098619301ef49243ff3f10b51ebceb4a:
+        Source: !file L_Hand.png
+        Name: L_Hand
+        TextureRegion: {X: 0, Y: 0, Width: 49, Height: 45}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

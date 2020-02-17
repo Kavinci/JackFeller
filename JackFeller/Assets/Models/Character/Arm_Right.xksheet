@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 5e1039ef-0e26-4da7-8c99-aec3c543ef11
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    c6f605c0b3142c3a2ab8a8384cea29bc:
+        Source: !file R_Arm.png
+        Name: R_Arm
+        TextureRegion: {X: 0, Y: 0, Width: 53, Height: 64}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 00db2e79-5f52-4b31-8c7e-c194a160f409
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    f7ef9330870977fbb1782e2188e98315:
+        Source: !file eyes_open.png
+        Name: eyes_open
+        TextureRegion: {X: 0, Y: 0, Width: 56, Height: 22}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

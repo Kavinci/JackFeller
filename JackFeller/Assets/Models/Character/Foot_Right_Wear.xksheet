@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 15edf422-811d-470f-9236-1828fd1389b4
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    90d41abf014c0b1689d9279d67d1b5a2:
+        Source: !file R_Foot_wear.png
+        Name: R_Foot_wear
+        TextureRegion: {X: 0, Y: 0, Width: 47, Height: 31}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

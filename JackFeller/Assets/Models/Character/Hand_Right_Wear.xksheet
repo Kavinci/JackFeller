@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 43b959f8-c51f-4524-b3fb-7cdf3b431602
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    84b052bf46e44af031f86591cafcf588:
+        Source: !file R_Hand_wear.png
+        Name: R_Hand_wear
+        TextureRegion: {X: 0, Y: 0, Width: 50, Height: 48}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: efca1d1b-c00a-49cf-a02d-b7b0bd3da03a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    0a9aad28aafaa7fc7381767431eac4ed:
+        Source: !file E:/Video Game Development/normal_ui_set free/Close Button.png
+        Name: Close Button
+        TextureRegion: {X: 0, Y: 0, Width: 94, Height: 91}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

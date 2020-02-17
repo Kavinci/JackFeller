@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: e9f54f2d-61c4-4e9d-a55c-9800a6166086
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    3223226ae31a6c97afc3311ab7cce3b2:
+        Source: !file E:/Video Game Development/normal_ui_set free/TextBTN_New-Start.png
+        Name: TextBTN_New-Start
+        TextureRegion: {X: 0, Y: 0, Width: 281, Height: 110}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

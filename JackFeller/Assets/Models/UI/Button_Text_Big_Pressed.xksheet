@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 6a00e0b4-041d-4e40-b467-31f0731f1af8
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    9be2e9a2ead0ccdd201e1eb5301955fc:
+        Source: !file E:/Video Game Development/normal_ui_set free/TextBTN_Big_Pressed.png
+        Name: TextBTN_Big_Pressed
+        TextureRegion: {X: 0, Y: 0, Width: 338, Height: 112}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

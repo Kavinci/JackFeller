@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: e6a425b3-17c4-4df3-9564-f94b8b8cadeb
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e2abdf5fd8f5e40a5e3bcfa59ec81ec4:
+        Source: !file E:/Video Game Development/normal_ui_set free/UI board Small  parchment.png
+        Name: UI board Small  parchment
+        TextureRegion: {X: 0, Y: 0, Width: 680, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

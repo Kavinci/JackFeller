@@ -7,9 +7,15 @@ namespace JackFeller.Data
     [Serializable]
     public class Slot
     {
-        public Slot() { }
+        public Slot(Item item, int capacity, int maxCapacity) 
+        {
+            ItemTemplate = item;
+            Count = 0;
+            Capacity = capacity;
+            MaxCapacity = maxCapacity;
+        }
         public Item ItemTemplate { get; private set; }
-        public int ItemCount { get; private set; }
+        public int Count { get; private set; }
         public int Capacity { get; private set; }
         public int MaxCapacity { get; private set; }
         public void IncreaseCapacity()
@@ -21,29 +27,29 @@ namespace JackFeller.Data
         }
         private bool IncrementItemCount()
         {
-            if(ItemCount < Capacity)
+            if(Count < Capacity)
             {
-                ItemCount++;
+                Count++;
                 return true;
             }
             return false;
         }
-        public void AddItem()
+        public bool AddItem()
         {
-            IncrementItemCount();
+            return IncrementItemCount();
         }
         private bool DecrementItemCount()
         {
-            if(ItemCount > 0)
+            if(Count > 0)
             {
-                ItemCount--;
+                Count--;
                 return true;
             }
             return false;
         }
-        public void RemoveItem()
+        public bool RemoveItem()
         {
-
+            return DecrementItemCount();
         }
     }
 }

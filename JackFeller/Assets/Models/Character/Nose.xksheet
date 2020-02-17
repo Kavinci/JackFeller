@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 458c1670-48a2-4768-9c89-7345e8cd283d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    74e8996213a463ccad1ba69ccbad8857:
+        Source: !file Nose.png
+        Name: Nose
+        TextureRegion: {X: 0, Y: 0, Width: 21, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

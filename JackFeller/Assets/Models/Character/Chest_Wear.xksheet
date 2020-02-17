@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 4e5ca2ef-fdcb-4e00-8954-0cdf457165bb
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    cd70a196bfc979060f4928d9d4d38f3d:
+        Source: !file Top_wear.png
+        Name: Top_wear
+        TextureRegion: {X: 0, Y: 0, Width: 105, Height: 120}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

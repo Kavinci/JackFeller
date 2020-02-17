@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 407e7271-fbc7-40b4-a3b8-d3e70b59d889
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    3b870b49e324cf77015694a095431270:
+        Source: !file R_Foot.png
+        Name: R_Foot
+        TextureRegion: {X: 0, Y: 0, Width: 44, Height: 27}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

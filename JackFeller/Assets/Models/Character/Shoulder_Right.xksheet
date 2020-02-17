@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: c681f47f-1125-4750-ba21-cdd065b771c7
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    b9da0b3be7a2be7535cc992d0aa12b7e:
+        Source: !file R_Shoulder.png
+        Name: R_Shoulder
+        TextureRegion: {X: 0, Y: 0, Width: 55, Height: 78}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

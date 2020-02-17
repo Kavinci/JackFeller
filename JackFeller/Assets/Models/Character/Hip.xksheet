@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 43cf6ae7-47ee-436f-9a4b-81ad3e205a6f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    ea96dafd076737c4f6326ebc42785469:
+        Source: !file Hip.png
+        Name: Hip
+        TextureRegion: {X: 0, Y: 0, Width: 94, Height: 58}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

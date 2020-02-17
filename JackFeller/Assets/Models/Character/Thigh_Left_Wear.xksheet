@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 6af0976f-2a4c-459b-9988-d38abd43424f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    91d1a1fb8515f483fa784995d6d3d6b7:
+        Source: !file L_Thigh_wear.png
+        Name: L_Thigh_wear
+        TextureRegion: {X: 0, Y: 0, Width: 39, Height: 61}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: a1f19bae-f3a0-4294-9602-7ae41efec47f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    838ad7446382ac22468e63aebb86b303:
+        Source: !file E:/Video Game Development/Health_bar_Free_Game_Assets/bar_contour.png
+        Name: bar_contour
+        TextureRegion: {X: 0, Y: 0, Width: 350, Height: 81}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

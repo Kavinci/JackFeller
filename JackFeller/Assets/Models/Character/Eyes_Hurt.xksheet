@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: af7943ac-bd78-480a-87a1-c03cf2acb84c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    92bd8e305881e4614ce2b3f2f5eef02b:
+        Source: !file eyes_hurt.png
+        Name: eyes_hurt
+        TextureRegion: {X: 0, Y: 0, Width: 63, Height: 33}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

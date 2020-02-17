@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: f9d98698-5de9-4812-9213-06cffeb4cd1f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    0c43bcf311f5acc1502c8d8df00637d9:
+        Source: !file mouth_open.png
+        Name: mouth_open
+        TextureRegion: {X: 0, Y: 0, Width: 33, Height: 27}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

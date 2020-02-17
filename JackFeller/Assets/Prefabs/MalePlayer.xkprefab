@@ -3,5 +3,517 @@ Id: ba394131-904b-4840-a2fa-6ec42960bf13
 SerializedVersion: {Xenko: 3.1.0.1}
 Tags: []
 Hierarchy:
-    RootParts: []
-    Parts: []
+    RootParts:
+        - ref!! 18067fba-3904-4271-8bf6-d0fa82f6f1d5
+        - ref!! 1ea3b9ef-9661-4701-a520-d41c54c572e5
+        - ref!! 9545ce90-e9ed-49cd-9a02-f58e2761b2f6
+        - ref!! 0b7d66f9-ca04-452c-8607-054276ace239
+        - ref!! ef605995-8d30-4b1c-9115-457f0e812ea0
+        - ref!! e2a6192f-91f7-4605-827c-099214430c4b
+        - ref!! 109aeaf6-dad2-4e27-9769-83e605c2b2c4
+        - ref!! 7e984bfc-1b87-44eb-979a-d577dd969d54
+        - ref!! d56b12b9-36f5-4e3e-8c33-da338f76838d
+        - ref!! f5f445ab-3d31-4d8c-b8b2-6cbcc6d7cbe8
+        - ref!! 918baf06-6ea0-4658-9e6d-f0d53f3e6272
+        - ref!! 3a389eea-c8d1-4ca2-82a9-9d3547fdf172
+        - ref!! bba406d8-c67c-427f-8c9c-3badac66a225
+        - ref!! 11a2b6e9-d4eb-40a7-a514-23ebf8c82d93
+        - ref!! 6a935b3e-2fcb-4084-9c6a-a421f4a963c9
+        - ref!! 630e7664-bc66-40f4-aad3-fbb94719efcf
+        - ref!! 79e562ad-4a75-42ec-94e4-a1e00636c49f
+        - ref!! aebcf8d0-d8f8-4cf5-aca0-38c214e5b59b
+        - ref!! d53a0810-e4e9-4cc1-8477-83a7fd7c0c59
+        - ref!! 704728ae-506b-4d69-9ab2-066be7878f60
+        - ref!! abb52397-34a6-451f-8a5a-162170be7817
+        - ref!! e013d2c7-9b46-42a0-993b-69d67362da9b
+        - ref!! 775e26d3-0ee5-41ff-ae81-2862a5e93f15
+        - ref!! fc966762-b58b-41d1-976e-b81a63c94c3d
+        - ref!! d4bd2a64-ed66-4720-9226-94a3539f1147
+        - ref!! fc25e09f-3d5d-49d6-8ddb-d63a7892a033
+        - ref!! 26f8758b-9a0e-4b14-bb95-1092aa2a6b5c
+        - ref!! 516c01db-fc46-411e-8f9e-88d7cc94e4a1
+        - ref!! 74f22758-1e80-4a52-912f-319c16ea6779
+        - ref!! 56568786-4f71-40e1-89a1-d152827e2258
+        - ref!! ec598ebf-254a-40aa-9c0e-021c792c0152
+        - ref!! fd434650-c373-4b85-84e9-5158227cd128
+    Parts:
+        -   Entity:
+                Id: 0b7d66f9-ca04-452c-8607-054276ace239
+                Name: Chest
+                Components:
+                    0364adeea19854d1633579310c2229e9: !TransformComponent
+                        Id: 859084b0-1c64-49fa-a073-948a33953c75
+                        Position: {X: 0.0, Y: 1.49305582, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    249ccd3a8dd26b1dc4b932eda85e0c83: !SpriteComponent
+                        Id: b2a56dac-df59-42df-a525-7251e66865c2
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 4bf4e6d8-b72e-40b4-bdaa-9a985ba05205:Models/Character/Chest
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 109aeaf6-dad2-4e27-9769-83e605c2b2c4
+                Name: Eyebrow_Right
+                Components:
+                    7f6a6c6259874f6e2a480709f26c452a: !TransformComponent
+                        Id: 48ce3e73-6820-444a-8b9c-42a456325697
+                        Position: {X: -0.416666985, Y: 2.638889, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7622bdf6e24116f02a943a1946b0f1de: !SpriteComponent
+                        Id: 61611aad-89dd-4e7b-825d-8eac4a75a42a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d1d6e6b5-0920-4f83-a80d-fa45e535740a:Models/Character/Eyebrow_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 11a2b6e9-d4eb-40a7-a514-23ebf8c82d93
+                Name: Flush
+                Components:
+                    43705c660d172d85ae00232c4783348d: !TransformComponent
+                        Id: 73054eae-84e6-4517-92cd-ce09e3dec039
+                        Position: {X: -0.173611, Y: 2.239583, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dde5255b5fc0e589f3d388b456d4a28e: !SpriteComponent
+                        Id: 65ceb980-2a79-401f-a434-999a15157204
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 32ef2278-3c0e-4529-98ec-e63b4b9a12ae:Models/Character/Flush
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 18067fba-3904-4271-8bf6-d0fa82f6f1d5
+                Name: Arm_Left
+                Components:
+                    d8f64ac66ed51d88d89829c5d8f1c8dc: !TransformComponent
+                        Id: b483030b-f1f2-4124-873e-f423b85a07c6
+                        Position: {X: 0.5902778, Y: 1.31944489, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e1976fe9a2c66303f2a561329c100d1b: !SpriteComponent
+                        Id: 9521714b-8e7a-4d8b-aa01-b0797b038fb1
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: ad37e940-30c0-4423-82bc-993ad76b05ca:Models/Character/Arm_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 1ea3b9ef-9661-4701-a520-d41c54c572e5
+                Name: Arm_Right
+                Components:
+                    5b01a0be821cfeea6cd7edbfa70eeef0: !TransformComponent
+                        Id: 8f188853-9122-4f61-b268-5705ff1b4370
+                        Position: {X: -0.815973, Y: 1.33680534, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    de995130bb218b9376ee2b7d4122c563: !SpriteComponent
+                        Id: 6a3c6d9a-0699-48e2-87f4-933fe74ba53b
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5e1039ef-0e26-4da7-8c99-aec3c543ef11:Models/Character/Arm_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 26f8758b-9a0e-4b14-bb95-1092aa2a6b5c
+                Name: Shadow
+                Components:
+                    0eb0385d255c7803e94f83b5f3b75df4: !TransformComponent
+                        Id: 7b7dac60-7d8f-4029-b941-3cf1b46e3ab1
+                        Position: {X: 0.0, Y: -1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b45535c052268f5de8a510bdcffb40d6: !SpriteComponent
+                        Id: 43880c0f-ad88-4566-b22a-c092b0bdde9f
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 1be9b045-5967-41fb-a179-b43bf742094e:Models/Character/Shadow
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 3a389eea-c8d1-4ca2-82a9-9d3547fdf172
+                Name: Finger_Left
+                Components:
+                    a2acff7109773eb8b1ca8ac78b19828b: !TransformComponent
+                        Id: ba1f217c-6b8b-42d1-b03d-7de85d73a2d9
+                        Position: {X: 1.11111057, Y: 0.885416567, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    078ca3fb11a8e6e1dbc45ede9165f0be: !SpriteComponent
+                        Id: d1e7713e-4dfc-49a2-9dac-5cba77b51a90
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: a7e30a96-57e6-4337-a3c3-032f0a171111:Models/Character/Finger_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 516c01db-fc46-411e-8f9e-88d7cc94e4a1
+                Name: Shoulder_Left
+                Components:
+                    d24ed03503cdf2e88d451eea6858871e: !TransformComponent
+                        Id: d38e89d5-1b2b-4860-b81f-fb07c06ba724
+                        Position: {X: 0.5381944, Y: 1.71874964, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    18cd9f26c29d7bea43ed5bb37a6782ea: !SpriteComponent
+                        Id: b32f49db-f01b-4622-b6b4-78e13ade6d7c
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: d5fb81df-1be3-424a-aa88-7ea8ea85df53:Models/Character/Shoulder_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 56568786-4f71-40e1-89a1-d152827e2258
+                Name: Thigh_Left
+                Components:
+                    ca462295b794b124284a30a52a2e8012: !TransformComponent
+                        Id: 14f4cf04-4b10-4053-aeea-70e0a663ce6f
+                        Position: {X: 0.243055955, Y: 0.7118061, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2ebbc4a5da1d58679f1df861a8daa6be: !SpriteComponent
+                        Id: dd201b55-f231-4885-873e-fcce349f4ce0
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: abb90977-fb09-4f03-9c9b-afe45bfb2250:Models/Character/Thigh_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 630e7664-bc66-40f4-aad3-fbb94719efcf
+                Name: Foot_Right
+                Components:
+                    2ca370ffdfa5ce29f3069d87d387a49b: !TransformComponent
+                        Id: 7548545c-949f-4ee7-8b5b-d6d131b53ed7
+                        Position: {X: -0.4166384, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8811653c13effd6ef7a28cbf46b40368: !SpriteComponent
+                        Id: 2f2890d4-5092-447a-bb58-ec0eacc48bee
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 407e7271-fbc7-40b4-a3b8-d3e70b59d889:Models/Character/Foot_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 6a935b3e-2fcb-4084-9c6a-a421f4a963c9
+                Name: Foot_Left
+                Components:
+                    ec6a30280e0b350c6022ae48ea354a44: !TransformComponent
+                        Id: e695e4c4-cdca-4e19-bd36-761b6d8dece5
+                        Position: {X: 0.156250983, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5880bbfdd3e834a151ce6b49b6dd0c85: !SpriteComponent
+                        Id: 03f2567a-6c07-400c-9df3-5bdabaa8c652
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: db93af70-1d61-43ad-93fa-856eeb25b9a5:Models/Character/Foot_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 704728ae-506b-4d69-9ab2-066be7878f60
+                Name: Hip
+                Components:
+                    19cfc49a4dec09d486c9bcf76153c2e9: !TransformComponent
+                        Id: 086d84ad-bab3-4842-8c94-45a3d0a06b7f
+                        Position: {X: 0.0, Y: 1.09375024, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f8e8a26a150428ae98f30bd14d12fdda: !SpriteComponent
+                        Id: 6e6e3182-43d1-498e-956a-876da216e0b8
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 43cf6ae7-47ee-436f-9a4b-81ad3e205a6f:Models/Character/Hip
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 74f22758-1e80-4a52-912f-319c16ea6779
+                Name: Shoulder_Right
+                Components:
+                    ec65791d1fd5a4511fed8d0e8af99175: !TransformComponent
+                        Id: 897000e1-b6a7-478a-a6f0-4afa5de5e547
+                        Position: {X: -0.590277135, Y: 1.63194454, Z: -1.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.495204419, W: 0.8687765}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    bb8fa33517e4a55824ee33a0946b0bc5: !SpriteComponent
+                        Id: 64a080a9-272c-4a69-9939-05934df42300
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: c681f47f-1125-4750-ba21-cdd065b771c7:Models/Character/Shoulder_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 775e26d3-0ee5-41ff-ae81-2862a5e93f15
+                Name: Mouth_Closed
+                Components:
+                    95d53bcd76c89a5f315ef1872ab5ee36: !TransformComponent
+                        Id: 58c2c979-0410-4220-8176-1f07c65f136f
+                        Position: {X: 2.55208373, Y: 2.06597257, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a013fd22b9fdfa72beb9224c80cdcd74: !SpriteComponent
+                        Id: 1c0046a1-980a-4c0a-9572-a2b6f7576c03
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: b03696c4-7e42-43ee-83ac-2ed626619926:Models/Character/Mouth_Closed
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 79e562ad-4a75-42ec-94e4-a1e00636c49f
+                Name: Hair
+                Components:
+                    0bd7a6fece4437ced79b60522d8124ff: !TransformComponent
+                        Id: 1995ce62-0eb5-4909-a2fe-86c9d0d8ef72
+                        Position: {X: 0.138889045, Y: 3.055556, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a4875c6627d4a3e7a06bda2e50ae66f3: !SpriteComponent
+                        Id: 09126d98-340d-4fb3-a1e1-7101fa14db7a
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: ed9aca1b-ce00-45d3-ba48-ac0f2ec98b82:Models/Character/Hair
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 7e984bfc-1b87-44eb-979a-d577dd969d54
+                Name: Eyes_Close
+                Components:
+                    cd2494adb7fd21fd278488ab9bc47b8d: !TransformComponent
+                        Id: 1d02567b-844b-4498-a318-d1099a679420
+                        Position: {X: 2.70833325, Y: 3.05555534, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    39a91da56b6abb8f82e15178f401dda6: !SpriteComponent
+                        Id: 8a15abcf-41ce-4b17-9b63-b30fc881c399
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: b6b59720-35e1-449b-91f5-fdf86969a54c:Models/Character/Eyes_Close
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 918baf06-6ea0-4658-9e6d-f0d53f3e6272
+                Name: Face
+                Components:
+                    ebe19e593239fed8ea5ca72a8393267e: !TransformComponent
+                        Id: 1e63834a-7722-479c-b625-69b5efe5fb23
+                        Position: {X: 0.0, Y: 2.534722, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ab3ea232713a23c3d2a60237bcb6e389: !SpriteComponent
+                        Id: dfae11fd-5013-43e2-b0c7-97b7837824b5
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5a541fd5-f0ac-42e4-9433-4dec182239aa:Models/Character/Face
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 9545ce90-e9ed-49cd-9a02-f58e2761b2f6
+                Name: Bottom_Wear
+                Components:
+                    8af609f302b68b8d6e0ceec919a2bb30: !TransformComponent
+                        Id: 41ed4540-7d4a-4d70-8a8b-84222143ecb3
+                        Position: {X: 0.0, Y: 1.04166651, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7da43d5700fb178aaa6177ca8351d2b0: !SpriteComponent
+                        Id: c2c23001-fe3f-46f9-a106-0f004c162ebc
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 5ae5c008-ef3b-4c85-b87b-001c45b0b191:Models/Character/Bottom_Wear
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: abb52397-34a6-451f-8a5a-162170be7817
+                Name: Leg_Left
+                Components:
+                    db086ac99a00c70180ec6ca75fe45966: !TransformComponent
+                        Id: 58278655-1288-4be5-8142-6725959112ff
+                        Position: {X: 0.2777779, Y: 0.329861075, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    57c60b8434031f701bb78f5d6e9a6e19: !SpriteComponent
+                        Id: e9c960f7-99ff-4e7f-8d60-5bd1fe998cb5
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: f3e3d198-4c4a-4ba9-adb4-5c3305cd37f9:Models/Character/Leg_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: aebcf8d0-d8f8-4cf5-aca0-38c214e5b59b
+                Name: Hand_Left
+                Components:
+                    e814f604bf190f78f2872a6b73188752: !TransformComponent
+                        Id: d319c46c-4eda-4d67-839e-4c40dc8f41de
+                        Position: {X: 0.9865167, Y: 0.781250238, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0acb8b05c44d32ced1fc846553795bcb: !SpriteComponent
+                        Id: cc6eb6c7-00f1-45e2-9687-9c7b04567901
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 597fe729-d8d0-4c7d-82df-3d3d89bd13aa:Models/Character/Hand_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: bba406d8-c67c-427f-8c9c-3badac66a225
+                Name: Finger_Right
+                Components:
+                    2d329bb2890bcd642e5832f45a433cad: !TransformComponent
+                        Id: 863dc602-625b-4814-a549-7789e72a899d
+                        Position: {X: -1.04166555, Y: 1.42361116, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    67dcfe29f83dceb80c08ee1a3abd4388: !SpriteComponent
+                        Id: 4b60a4bd-a050-4190-afe0-211c10e2204d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: e42f162b-840a-4b15-8b2c-c7dde624b312:Models/Character/Finger_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: d4bd2a64-ed66-4720-9226-94a3539f1147
+                Name: Mouth_Open
+                Components:
+                    52ebddd9ad7bbc783db3bb4172eea462: !TransformComponent
+                        Id: 5bd3ddd2-db79-44bb-a7c5-2ea55b439fb0
+                        Position: {X: -0.225694537, Y: 2.152778, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c5c1f4efaedf68372a5ec837b337e819: !SpriteComponent
+                        Id: 4bd03604-79b0-4606-a58f-89eb644253ec
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: f9d98698-5de9-4812-9213-06cffeb4cd1f:Models/Character/Mouth_Open
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: d53a0810-e4e9-4cc1-8477-83a7fd7c0c59
+                Name: Hand_Right
+                Components:
+                    45707f7d438dc63c3b6cd36a5f97a915: !TransformComponent
+                        Id: 84f5ef20-a908-48c9-a624-80aabb9bf2e1
+                        Position: {X: -1.006945, Y: 1.3888886, Z: -0.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1b46756255723771de2762d2e355c4b5: !SpriteComponent
+                        Id: 7cd003e8-0e49-4649-a869-8bbe6ca1dfc3
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: f8d7d832-4d2f-4aaf-8f97-89948ed070ac:Models/Character/Hand_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: d56b12b9-36f5-4e3e-8c33-da338f76838d
+                Name: Eyes_Hurt
+                Components:
+                    52e7f692bc0fbd3a8bd79ac4dc25dbc6: !TransformComponent
+                        Id: 95a98aaf-75e3-472e-bf62-0b195b3fd3fe
+                        Position: {X: 3.35069442, Y: 2.46041584, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c4cef239b31818d66179f09ab5144d73: !SpriteComponent
+                        Id: 95e65fee-be9e-4575-a6be-6ae509b0e4c3
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: af7943ac-bd78-480a-87a1-c03cf2acb84c:Models/Character/Eyes_Hurt
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: e013d2c7-9b46-42a0-993b-69d67362da9b
+                Name: Leg_Right
+                Components:
+                    859a8da0e3d7b3bc2be26ed2b7898f11: !TransformComponent
+                        Id: d27198fb-95fd-4363-b247-ecd94e7b0c89
+                        Position: {X: -0.260416418, Y: 0.295138836, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3d0700bc162cbb7fd6b0943f5de179c4: !SpriteComponent
+                        Id: 3fa5b1fa-aaae-4486-9af9-6e053ce096e2
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 2ba4a92d-bff1-4cf1-b183-5761b705f875:Models/Character/Leg_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: e2a6192f-91f7-4605-827c-099214430c4b
+                Name: Eyebrow_Left
+                Components:
+                    56eee936de7f0979dbc99a96739b048d: !TransformComponent
+                        Id: d0672829-67cc-4434-a22b-1e4552916168
+                        Position: {X: 0.0, Y: 2.65625024, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f7115948b53f8973574eb64f84394876: !SpriteComponent
+                        Id: d50bd9d4-1fe3-4c69-badf-d73d48bcbf79
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: dd788314-714d-4d67-ba80-920a542793db:Models/Character/Eyebrow_Left
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: ec598ebf-254a-40aa-9c0e-021c792c0152
+                Name: Thigh_Right
+                Components:
+                    279e53d0c49fc228f9e8ff550accee8c: !TransformComponent
+                        Id: cfff1f11-db3f-42ee-9f78-d542d180620b
+                        Position: {X: -0.31249997, Y: 0.763889, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    caefadba87a73ba6d5e02e1a3d0066fc: !SpriteComponent
+                        Id: c01d5b7a-870c-40ff-9c6a-ff935bb5c2c4
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 99e41a99-d8d5-428d-94fb-10769ee2fb9f:Models/Character/Thigh_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: ef605995-8d30-4b1c-9115-457f0e812ea0
+                Name: Ear
+                Components:
+                    e45549c66c0f9051d0c49e036bfb49fd: !TransformComponent
+                        Id: 84401d1e-18d2-4a9d-a9c8-badf2974f4f1
+                        Position: {X: 0.434027344, Y: 2.41319442, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c79f69aa94e964ee0586350e3220f1d1: !SpriteComponent
+                        Id: 704dbb0d-330d-44ea-8510-232e2cc894cf
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: bac3e141-6045-458f-9f75-0c224dc589e1:Models/Character/Ear
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: f5f445ab-3d31-4d8c-b8b2-6cbcc6d7cbe8
+                Name: Eyes_Open
+                Components:
+                    243ba3e38be0bdec396c7402abb3baa3: !TransformComponent
+                        Id: 2353e0dd-c762-4639-8c63-8281b4a88808
+                        Position: {X: -0.190972582, Y: 2.465278, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9f9728bc56338badd3ad3dc45d09f98e: !SpriteComponent
+                        Id: c0be81b6-89d0-4320-abed-028431b3106d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 00db2e79-5f52-4b31-8c7e-c194a160f409:Models/Character/Eyes_Open
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: fc25e09f-3d5d-49d6-8ddb-d63a7892a033
+                Name: Nose
+                Components:
+                    04a15d8263b59ee6944a8492f3020ef9: !TransformComponent
+                        Id: dd882b18-b737-4c5b-bbdf-a57f57fa7709
+                        Position: {X: -0.243056133, Y: 2.41319442, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6971d003a434a190eca9179a3fc047e1: !SpriteComponent
+                        Id: e4c8bb6e-bd4b-4b6a-83fa-ebc3e7a63b22
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 458c1670-48a2-4768-9c89-7345e8cd283d:Models/Character/Nose
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: fc966762-b58b-41d1-976e-b81a63c94c3d
+                Name: Mouth_Hurt
+                Components:
+                    22f8d8d193df31631ead994f2187ac9c: !TransformComponent
+                        Id: 243ab1b7-358d-4293-9cdd-461ea528dfc9
+                        Position: {X: 2.44791675, Y: 2.43055558, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    47c1bdaf335c3419c671b720f6a6f442: !SpriteComponent
+                        Id: 6f26c7a0-1147-4722-8a75-d640d5bc69d1
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: a3ba6fa4-b59e-4f6d-ac00-06e43cd631a3:Models/Character/Mouth_Hurt
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: fd434650-c373-4b85-84e9-5158227cd128
+                Name: Weapon_Right
+                Components:
+                    1d7507f3260e36d30e95a70eb0c2c672: !TransformComponent
+                        Id: 5cd60f7c-897a-46d3-83f5-4d9955279606
+                        Position: {X: -1.03613257, Y: 2.34375048, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e4affdf26e1286f55de7e8ad77970c2b: !SpriteComponent
+                        Id: b948ffca-8c36-43c7-9a20-4195c5687084
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: fe909bea-7662-4090-9dde-5b3f20fda0b0:Models/Character/Weapon_Right
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}

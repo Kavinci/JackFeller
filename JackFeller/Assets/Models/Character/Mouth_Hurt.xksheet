@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: a3ba6fa4-b59e-4f6d-ac00-06e43cd631a3
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    ff2d7df24e0d8dd9fae22f57acc00011:
+        Source: !file mouth_hurt.png
+        Name: mouth_hurt
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 18}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

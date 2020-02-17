@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: ac969df8-d630-474d-8ec3-a832a9727b2d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    9b7f43f2349d0433dfe0f5663a212e48:
+        Source: !file E:/Video Game Development/normal_ui_set free/TextBTN_Medium.png
+        Name: TextBTN_Medium
+        TextureRegion: {X: 0, Y: 0, Width: 281, Height: 110}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: d1d6e6b5-0920-4f83-a80d-fa45e535740a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    57d9367361927beb489834de7fd967aa:
+        Source: !file R_eyebrow.png
+        Name: R_eyebrow
+        TextureRegion: {X: 0, Y: 0, Width: 37, Height: 18}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

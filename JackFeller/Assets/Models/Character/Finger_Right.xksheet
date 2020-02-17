@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: e42f162b-840a-4b15-8b2c-c7dde624b312
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    820168665af149f518703947e3dd8113:
+        Source: !file R_Finger.png
+        Name: R_Finger
+        TextureRegion: {X: 0, Y: 0, Width: 39, Height: 50}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

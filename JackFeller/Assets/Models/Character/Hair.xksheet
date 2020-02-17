@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: ed9aca1b-ce00-45d3-ba48-ac0f2ec98b82
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    50ef0432bdbcda1ef0948b903e777dec:
+        Source: !file Hair.png
+        Name: Hair
+        TextureRegion: {X: 0, Y: 0, Width: 158, Height: 140}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
